@@ -1,44 +1,61 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;800&family=Playfair+Display:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;800&family=Playfair+Display:wght@900&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    max-width: 150vw;
+}
 header{
-    border: solid;
     display: flex;
     font-family: 'Montserrat', sans-serif;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    max-width: 1920px;
-    height: 4vw;
-    font-size: 12px;
+    max-width: 150vw;
+    height: 5vw;
+    font-size: 0.90vw;
     font-weight: 500;
     color: #9767A9;
     background-color: white;
     padding: 0px 80px 0px 80px;
 }
 .logo img{
-    width: 90px;
+    width: 7vw;
 }
 header nav{
     align-items: center;
-    width: 50%;
-    padding: 0px 15px 0px 15px;
+    width: 63%;
+    padding: 0px 25px 0px 25px;
 }
 header ul{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 header li{
     list-style: none;
     display: flex;
 }
+header li:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
 input{
-    border-radius: 13px;
-    height: 26px;
+    border-radius: 15px;
+    height: 2vw;
+    width: 12vw;
     color: #9767A9;
     border: solid 2px;
+    padding-left: 4px;
+    text-indent: 15%;
+    font-size: 0.90vw;
+}
+header input::placeholder{
+    color: #9767A9;
+    background-image: url('./lupa.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 80%;
 }
 .socialNetworks{
     display: flex;
@@ -46,5 +63,57 @@ input{
     width: 12%;
 }
 .socialNetworks img{
-    width: 30px;
+    width: 2.30vw;
+}
+
+.firstSection{
+    height: 61vh;
+    background-image: url('./urn_aaid_sc_US_0e3d95bd-b65a-48ea-8d0c-a3ea5e85703d.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.firstSection h1{    
+    font-family: 'Playfair Display';
+    font-size: 8.71vh;
+    width: 25%;
+    height: 18%;
+    position: absolute;
+    right: 61vw;
+    line-height: 100%;
+}
+.firstSection h2{
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 2.90vh;
+    width: 25%;
+    height: 10%;  
+    position: absolute;
+    right: 17vw;
+}
+.secondSection{
+    background-color: #9767A9;
+    height: 32vh;
+    display: flex;
+    color: white;
+    align-items: flex-start;
+}
+.secondSection h3{
+    font-family: 'Playfair Display';
+    width: 57%;
+    font-size: 43px;
+    display: flex;
+    align-items: flex-start;
+    padding: 15px 0px 0px 100px;
+}
+.secondSection p{
+    font-family: 'Montserrat', sans-serif;
+    width: 39%;
+    font-size: 18px;
+    font-weight: 100;
+    padding: 32px 0px 0px 30px;
 }
