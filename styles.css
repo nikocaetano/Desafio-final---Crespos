@@ -6,6 +6,7 @@
 }
 body{
     max-width: 150vw;
+    min-width: 320px;
 }
 header{
     display: flex;
@@ -22,6 +23,9 @@ header{
 }
 .logo img{
     width: 7vw;
+}
+.menuHamburguer{
+    display: none;
 }
 header nav{
     align-items: center;
@@ -74,40 +78,41 @@ header input::placeholder{
     color: white;
     display: flex;
     align-items: center;
+    margin: auto;
 }
 .firstSection h1{    
-    font-family: 'Playfair Display';
-    font-size: 8.71vh;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 8vh;
     width: 25%;
     height: 18%;
     position: absolute;
-    right: 61vw;
+    right: 60vw;
     line-height: 100%;
+    top: 35%;
 }
 .firstSection h2{
     display: flex;
     align-items: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-    font-size: 2.90vh;
+    font-size: 2vw;
     width: 25%;
     height: 10%;  
     position: absolute;
-    right: 17vw;
+    right: 15vw;
+    top: 39%;
 }
 .secondSection{
     background-color: #9767A9;
-    height: 32vh;
+    height: 31vh;
     display: flex;
     color: white;
-    align-items: flex-start;
 }
 .secondSection h3{
     font-family: 'Playfair Display';
     width: 57%;
     font-size: 43px;
     display: flex;
-    align-items: flex-start;
     padding: 15px 0px 0px 100px;
 }
 .secondSection p{
@@ -116,4 +121,67 @@ header input::placeholder{
     font-size: 18px;
     font-weight: 100;
     padding: 32px 0px 0px 30px;
+}
+@media (max-width:600px){
+    header{
+        height: 8vw;
+    }
+    .logo img{
+        width: 11vw;
+    }
+    .menuHamburguer{
+        display: flex;
+        position: absolute;
+        height: 8vw;
+        right: 90.5%;
+    }
+    header nav{
+        display: none;
+    }
+    input{
+        display: none;
+    }
+    .socialNetworks{
+        display: none;
+    }
+    .firstSection{
+        background-position: 34%;
+        background-size: cover;
+        background-attachment: scroll;
+    }
+    .firstSection h1{
+        position: absolute;
+        top: 13%;
+        right: 42%;
+        font-size: 8vh;
+        width: 230px;
+        line-height: 65px;
+        letter-spacing: 2px;
+    }
+    .firstSection h2{
+        position: absolute;
+        top: 35%;
+        right: 41%;
+        width: 230px;
+        font-size: 20px;
+    }
+    .secondSection{
+        flex-direction: column;
+        align-items: center;
+        height: 34vh;
+    }
+    .secondSection h3{
+        width: 100%;
+        font-size: 24px;
+        width: 350px;
+        padding: 0%;
+        text-align: center;
+        text-align: left;
+    }
+    .secondSection p{
+        font-size: 15px;
+        padding: 0%;
+        width: 350px;
+        padding-top: 5%;
+    }
 }
