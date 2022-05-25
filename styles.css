@@ -69,16 +69,14 @@ header input::placeholder{
 .socialNetworks img{
     width: 2.30vw;
 }
-
 .firstSection{
-    height: 61vh;
+    height: 62vh;
     background-image: url('./urn_aaid_sc_US_0e3d95bd-b65a-48ea-8d0c-a3ea5e85703d.png');
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
     display: flex;
     align-items: center;
-    margin: auto;
 }
 .firstSection h1{    
     font-family: 'Playfair Display', sans-serif;
@@ -104,7 +102,7 @@ header input::placeholder{
 }
 .secondSection{
     background-color: #9767A9;
-    height: 31vh;
+    height: 32vh;
     display: flex;
     color: white;
 }
@@ -121,6 +119,116 @@ header input::placeholder{
     font-size: 18px;
     font-weight: 100;
     padding: 32px 0px 0px 30px;
+}
+.thirdSection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0px 55px 0px 55px;
+}
+article{
+    width: 30vw;
+    height: 25vw;
+    display: flex;
+    position: relative;
+    left: 15%;
+    bottom: 15%;
+    background-color: #9767A9;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 100;
+    font-size: 13px;
+    flex-direction: column;
+    padding: 30px 35px 30px 35px;
+}
+article h5{
+    font-size: 28px;
+    font-family: 'Playfair Display';
+}
+.fotoOne{
+    position: relative;
+    bottom: 4.28vw;
+}
+.fotoOne img{
+    width: 43vw;
+}
+.fotoTwo{
+    position: relative;
+    top: 16vw;
+}
+.fotoTwo img{
+    width: 43vw;
+}
+.fotoTwo article{
+    height: 22vw;
+}
+.fotoThree{
+    position: relative;
+    bottom: 9vw;
+}
+.fotoThree img{
+    width: 43vw;
+}
+.fotoThree article{
+    height: 19vw;
+}
+.fotoFour{
+    position: relative;
+    top: 9vw;
+}
+.fotoFour img{
+    width: 43vw;
+}
+.fotoFour article{
+    height: 22vw;
+}
+.fotoFive{
+    position: relative;
+    bottom: 13vw;
+}
+.fotoFive img{
+    width: 43vw;
+}
+.fotoFive article{
+   height: 20vw;
+}
+.fotoSix{
+    position: relative;
+    top: 5vw;
+}
+.fotoSix img{
+    width: 43vw;
+}
+.fotoSix article{
+    height: 18vw;
+}
+.fotoSeven{
+    position: relative;
+    bottom: 15.3vw;
+}
+.fotoSeven img{
+    width: 43vw;
+}
+.fotoSeven article{
+    height: 17vw;
+}
+.fotoEight{
+    width: 43vw;
+}
+.fotoEight img{
+   width: 30vw;
+   position: relative;
+   top: 10vw;
+   left: 13%;
+}
+@media (max-width:1024px){
+    article{
+        position: absolute;
+        right: 590px;
+        top: 1050px;
+        width: 30vw;
+        height: 39vw;
+    }
 }
 @media (max-width:600px){
     header{
@@ -168,7 +276,7 @@ header input::placeholder{
     .secondSection{
         flex-direction: column;
         align-items: center;
-        height: 34vh;
+        height: 45vh;
     }
     .secondSection h3{
         width: 100%;
@@ -183,5 +291,62 @@ header input::placeholder{
         padding: 0%;
         width: 350px;
         padding-top: 5%;
+    }
+    .fotoOne img, .fotoTwo img, .fotoThree img, .fotoFour img, .fotoFive img, .fotoSix img, .fotoSeven img{
+        width: 80vw;
+    }
+    .fotoOne{
+        position: relative;
+        top: 4.4vw;
+    }
+    .fotoOne h5, .fotoOne p{
+        position: relative;
+        top: -109vh;
+        right: 28vw;
+        width: 97vw;
+        height: 60vw;
+        background-color: #9767A9;
+        padding: 0px 50px 0px 50px;
+    }
+    .fotoTwo img{
+        position: relative;
+        top: 30vw;
+    }
+    .fotoTwo h5, .fotoTwo p{
+        position: relative;
+        bottom: 130vw;
+        right: 28vw;
+        width: 97vw;
+        height: 60vw;
+        background-color: #9767A9;
+        padding: 0px 50px 0px 50px;
+    }
+    .fotoThree{
+        position: relative;
+        top: 90vw;
+    }
+    .fotoThree h5, .fotoThree p{
+        position: relative;
+        right: 28vw;
+        width: 97vw;
+        height: 60vw;
+        background-color: #9767A9;
+        padding: 0px 50px 0px 50px;
+    }
+    .fotoFour{
+        position: relative;
+        top: 125vw;
+    }
+    .fotoFive{
+        position: relative;
+        top: 180vw;
+    }
+    .fotoSix{
+        position: relative;
+        top: 180vw;
+    }
+    .fotoSeven{
+        position: relative;
+        top: 200vw;
     }
 }
