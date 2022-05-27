@@ -13,13 +13,16 @@ header{
     font-family: 'Montserrat', sans-serif;
     justify-content: space-around;
     align-items: center;
-    max-width: 150vw;
+    max-width: 1920px;
+    width: 100%;
     height: 5vw;
     font-size: 0.90vw;
     font-weight: 500;
     color: #9767A9;
     background-color: white;
     padding: 0px 80px 0px 80px;
+    position: fixed;
+    z-index: 1;
 }
 .logo img{
     width: 7vw;
@@ -71,22 +74,23 @@ header input::placeholder{
 }
 .firstSection{
     height: 62vh;
-    background-image: url('./urn_aaid_sc_US_0e3d95bd-b65a-48ea-8d0c-a3ea5e85703d.png');
+    background-image: url('https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0e3d95bd-b65a-48ea-8d0c-a3ea5e85703d;revision=0?component_id=ec6992a0-8ed9-4083-8163-81b563f8b4a9&api_key=CometServer1&access_token=1653635988_urn%3Aaaid%3Asc%3AUS%3A0e3d95bd-b65a-48ea-8d0c-a3ea5e85703d%3Bpublic_68192b8eb667ff1fc1d3081d3132bb0da034558a');
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
     display: flex;
     align-items: center;
+    position: relative;
 }
 .firstSection h1{    
     font-family: 'Playfair Display', sans-serif;
-    font-size: 8vh;
-    width: 25%;
-    height: 18%;
+    font-size: 7.5vh;
+    width: 29vw;
+    height: 30%;
     position: absolute;
-    right: 60vw;
+    right: 55vw;
     line-height: 100%;
-    top: 35%;
+    top: 48%;
 }
 .firstSection h2{
     display: flex;
@@ -97,8 +101,8 @@ header input::placeholder{
     width: 25%;
     height: 10%;  
     position: absolute;
-    right: 15vw;
-    top: 39%;
+    right: 12vw;
+    top: 55%;
 }
 .secondSection{
     background-color: #9767A9;
@@ -125,117 +129,121 @@ header input::placeholder{
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 0px 55px 0px 55px;
+    position: relative;
 }
-article{
+
+div{
     width: 30vw;
     height: 25vw;
     display: flex;
-    position: relative;
-    left: 15%;
-    bottom: 15%;
     background-color: #9767A9;
     color: white;
     font-family: 'Montserrat';
     font-weight: 100;
     font-size: 13px;
     flex-direction: column;
-    padding: 30px 35px 30px 35px;
+    padding: 18px 25px 18px 25px;
 }
-article h5{
+div h5{
     font-size: 28px;
     font-family: 'Playfair Display';
 }
-.fotoOne{
-    position: relative;
-    bottom: 4.28vw;
-}
 .fotoOne img{
-    width: 43vw;
-}
-.fotoTwo{
+    width: 42vw;
     position: relative;
-    top: 16vw;
+    right:  3vw;
+    bottom: 4vw;
+}
+.textOne{
+    position: absolute;
+    right: 56vw;
+    top: 32vh;
 }
 .fotoTwo img{
-    width: 43vw;
+    width: 42vw;
+    position: absolute;
+    left: 50vw;
+    top:16vw;
 }
-.fotoTwo article{
-    height: 22vw;
-}
-.fotoThree{
-    position: relative;
-    bottom: 9vw;
+.textTwo{
+    position: absolute;
+    left: 56vw;
+    top: 41vw;
+    height: 21vw;
 }
 .fotoThree img{
-    width: 43vw;
+    width: 42vw;
+    position:absolute;
+    top: 51vw;
+    right: 50vw;   
 }
-.fotoThree article{
-    height: 19vw;
-}
-.fotoFour{
-    position: relative;
-    top: 9vw;
-}
-.fotoFour img{
-    width: 43vw;
-}
-.fotoFour article{
-    height: 22vw;
-}
-.fotoFive{
-    position: relative;
-    bottom: 13vw;
-}
-.fotoFive img{
-    width: 43vw;
-}
-.fotoFive article{
-   height: 20vw;
-}
-.fotoSix{
-    position: relative;
-    top: 5vw;
-}
-.fotoSix img{
-    width: 43vw;
-}
-.fotoSix article{
+.textThree{
+    position: absolute;
+    right: 56vw;
+    top: 76vw;
     height: 18vw;
 }
-.fotoSeven{
-    position: relative;
-    bottom: 15.3vw;
+.fotoFour img{
+    width: 42vw;
+    position:absolute;
+    top: 68.5vw;
+    left: 50vw;
+}
+.textFour{
+    position: absolute;
+    left: 56vw;
+    top: 100vw;
+    height: 19vw;
+}
+.fotoFive img{
+    width: 42vw;
+    position:absolute;
+    top: 103.5vw;
+    right: 50vw;
+}
+.textFive{
+    position: absolute;
+    right: 56vw;
+    top: 128vw;
+    height: 20vw;
+}
+.fotoSix img{
+    width: 42vw;
+    position:absolute;
+    left: 50vw;
+    top: 122vw;
+}
+.textSix{
+    position: absolute;
+    left: 56vw;
+    top: 152vw;
+    height: 18vw;
 }
 .fotoSeven img{
-    width: 43vw;
+    width: 42vw;
+    position:absolute;
+    right: 50vw;
+    top: 157vw;
 }
-.fotoSeven article{
-    height: 17vw;
-}
-.fotoEight{
-    width: 43vw;
+.textSeven{
+    position: absolute;
+    right: 56vw;
+    top: 181.8vw;
+    height: 15vw;
 }
 .fotoEight img{
-   width: 30vw;
-   position: relative;
-   top: 10vw;
-   left: 13%;
+    position: absolute;
+    left: 55.5vw;
+    top: 180vw;
+    width: 30vw;
 }
-@media (max-width:1024px){
-    article{
-        position: absolute;
-        right: 590px;
-        top: 1050px;
-        width: 30vw;
-        height: 39vw;
-    }
-}
-@media (max-width:600px){
+
+@media screen and (min-width:425px) and (max-width:600px){
     header{
         height: 8vw;
     }
     .logo img{
-        width: 11vw;
+        width: 12vw;
     }
     .menuHamburguer{
         display: flex;
@@ -253,30 +261,30 @@ article h5{
         display: none;
     }
     .firstSection{
-        background-position: 34%;
+        background-position: 35%;
         background-size: cover;
         background-attachment: scroll;
     }
     .firstSection h1{
         position: absolute;
         top: 13%;
-        right: 42%;
+        right: 44%;
         font-size: 8vh;
         width: 230px;
-        line-height: 65px;
+        line-height: 60px;
         letter-spacing: 2px;
     }
     .firstSection h2{
         position: absolute;
-        top: 35%;
-        right: 41%;
+        top: 49%;
+        right: 43.5%;
         width: 230px;
-        font-size: 20px;
+        font-size: 21px;
     }
     .secondSection{
         flex-direction: column;
         align-items: center;
-        height: 45vh;
+        height: 55vh;
     }
     .secondSection h3{
         width: 100%;
@@ -292,61 +300,102 @@ article h5{
         width: 350px;
         padding-top: 5%;
     }
-    .fotoOne img, .fotoTwo img, .fotoThree img, .fotoFour img, .fotoFive img, .fotoSix img, .fotoSeven img{
-        width: 80vw;
-    }
-    .fotoOne{
+    .thirdSection{
         position: relative;
-        top: 4.4vw;
     }
-    .fotoOne h5, .fotoOne p{
-        position: relative;
-        top: -109vh;
-        right: 28vw;
-        width: 97vw;
-        height: 60vw;
-        background-color: #9767A9;
-        padding: 0px 50px 0px 50px;
+    .fotoOne img{
+        position: absolute;
+        width:70vw;
+        top: 3vw;
+        right: 13vw;
+    }
+    .textOne{
+        position: absolute;
+        left: 0.1px;
+        width: 96.5vw;
+        height: 55vh;
     }
     .fotoTwo img{
-        position: relative;
-        top: 30vw;
+        position: absolute;
+        width:70vw;
+        top:119vw;
+        left: 13.5vw;
     }
-    .fotoTwo h5, .fotoTwo p{
-        position: relative;
-        bottom: 130vw;
-        right: 28vw;
-        width: 97vw;
-        height: 60vw;
-        background-color: #9767A9;
-        padding: 0px 50px 0px 50px;
+    .textTwo{
+        position: absolute;
+        left: 0.1px;
+        top:169vw;
+        width: 96.5vw;
+        height: 55vh;
     }
-    .fotoThree{
-        position: relative;
-        top: 90vw;
+    .fotoThree img{
+        position: absolute;
+        width: 70vw;
+        top: 245vw ;
+        left: 13.5vw;
     }
-    .fotoThree h5, .fotoThree p{
-        position: relative;
-        right: 28vw;
-        width: 97vw;
-        height: 60vw;
-        background-color: #9767A9;
-        padding: 0px 50px 0px 50px;
+    .textThree{
+        left: 0.1px;
+        top: 291vw;
+        width: 96.5vw;
+        height: 40vh;
     }
-    .fotoFour{
-        position: relative;
-        top: 125vw;
+    .fotoFour img{
+        position: absolute;
+        top: 347vw;
+        width: 70vw;
+        left: 13.5vw;
     }
-    .fotoFive{
-        position: relative;
-        top: 180vw;
+    .textFour{
+        position: absolute;
+        left: 0.1px;
+        top: 402vw;
+        width: 96.5vw;
+        height: 40vh;
     }
-    .fotoSix{
-        position: relative;
-        top: 180vw;
+    .fotoFive img{
+        position: absolute;
+        top: 458vw;
+        width: 70vw;
+        left: 13.5vw;
     }
-    .fotoSeven{
-        position: relative;
-        top: 200vw;
+    .textFive{
+        position: absolute;
+        left: 0.1px;
+        top: 500vw;
+        width: 96.5vw;
+        height: 45vh;
+    }
+    .fotoSix img{
+        position: absolute;
+        top: 563vw;
+        width: 70vw;
+        left: 13.5vw;
+    }
+    .textSix{
+        position: absolute;
+        left: 0.1px;
+        top: 615vw;
+        width: 96.5vw;
+        height: 45vh;
+    }
+    .fotoSeven img{
+        position: absolute;
+        top: 678vw;
+        width: 70vw;
+        left: 13.5vw;
+    }
+    .textSeven{
+        position: absolute;
+        left: 0.1px;
+        top: 727vw;
+        width: 96.5vw;
+        height: 45vh;
+    }
+    .fotoEight img{
+        position:absolute;
+        top: 795vw;
+        width: 60vw;
+        left: 18vw;
     }
 }
