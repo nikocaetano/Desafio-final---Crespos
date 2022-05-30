@@ -69,12 +69,15 @@ header input::placeholder{
     justify-content: space-evenly;
     width: 12%;
 }
+main{
+    margin: auto;
+}
 .socialNetworks img{
     width: 2.30vw;
 }
 .firstSection{
     height: 62vh;
-    background-image: url('https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0e3d95bd-b65a-48ea-8d0c-a3ea5e85703d;revision=0?component_id=ec6992a0-8ed9-4083-8163-81b563f8b4a9&api_key=CometServer1&access_token=1653635988_urn%3Aaaid%3Asc%3AUS%3A0e3d95bd-b65a-48ea-8d0c-a3ea5e85703d%3Bpublic_68192b8eb667ff1fc1d3081d3132bb0da034558a');
+    background-image: url('./imagens desafio final/urn_aaid_sc_US_0e3d95bd-b65a-48ea-8d0c-a3ea5e85703d.png');
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
@@ -97,7 +100,7 @@ header input::placeholder{
     align-items: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-    font-size: 2vw;
+    font-size: 2.90vh;
     width: 25%;
     height: 10%;  
     position: absolute;
@@ -115,14 +118,18 @@ header input::placeholder{
     width: 57%;
     font-size: 43px;
     display: flex;
-    padding: 15px 0px 0px 100px;
+    padding: 15px 0px 0px 80px;
 }
-.secondSection p{
+.paragraph{
     font-family: 'Montserrat', sans-serif;
     width: 39%;
+    height: 100%;
     font-size: 18px;
     font-weight: 100;
-    padding: 32px 0px 0px 30px;
+    padding: 20px 0px 0px 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .thirdSection{
     display: flex;
@@ -140,12 +147,12 @@ div{
     color: white;
     font-family: 'Montserrat';
     font-weight: 100;
-    font-size: 13px;
+    font-size: 1.46vh;
     flex-direction: column;
     padding: 18px 25px 18px 25px;
 }
 div h5{
-    font-size: 28px;
+    font-size: 3.19vh;
     font-family: 'Playfair Display';
 }
 .fotoOne img{
@@ -238,7 +245,7 @@ div h5{
     width: 30vw;
 }
 
-@media screen and (min-width:425px) and (max-width:600px){
+@media (max-width:500px){
     header{
         height: 8vw;
     }
@@ -261,14 +268,14 @@ div h5{
         display: none;
     }
     .firstSection{
-        background-position: 35%;
+        background-position: 31%;
         background-size: cover;
         background-attachment: scroll;
     }
     .firstSection h1{
         position: absolute;
-        top: 13%;
-        right: 44%;
+        top: 15%;
+        right: 45%;
         font-size: 8vh;
         width: 230px;
         line-height: 60px;
@@ -277,125 +284,160 @@ div h5{
     .firstSection h2{
         position: absolute;
         top: 49%;
-        right: 43.5%;
+        right: 43%;
         width: 230px;
         font-size: 21px;
     }
     .secondSection{
         flex-direction: column;
         align-items: center;
-        height: 55vh;
+        height: 57vh;
     }
     .secondSection h3{
         width: 100%;
-        font-size: 24px;
-        width: 350px;
-        padding: 0%;
-        text-align: center;
-        text-align: left;
+        font-size: 3.5vh;
+        width: 52vh;
+        padding: 0px 0px 0px 17px;
     }
     .secondSection p{
-        font-size: 15px;
-        padding: 0%;
-        width: 350px;
-        padding-top: 5%;
+        font-size: 2.3vh;
+        padding: 0px 0px 25px 0px;
+        width: 51vh;
     }
     .thirdSection{
         position: relative;
     }
+    div h5{
+        font-size: 3vh;
+        width: 45vh;
+        padding: 0px 20px 5px 25px;
+    }
     .fotoOne img{
         position: absolute;
-        width:70vw;
+        width:82vw;
         top: 3vw;
-        right: 13vw;
+        right: 9vw;
+    }
+    .textOne p{
+        padding: 0px 20px 15px 25px;
+        width: 53vh;
     }
     .textOne{
         position: absolute;
         left: 0.1px;
-        width: 96.5vw;
-        height: 55vh;
+        font-size: 2.3vh;
+        width: 100%;
+        height: 65vh;
     }
     .fotoTwo img{
         position: absolute;
-        width:70vw;
-        top:119vw;
-        left: 13.5vw;
+        width:82vw;
+        top:158vw;
+        left: 9vw;
     }
     .textTwo{
         position: absolute;
         left: 0.1px;
-        top:169vw;
-        width: 96.5vw;
-        height: 55vh;
+        top:216vw;
+        width: 100%;
+        height: 65vh;
+    }
+    .textTwo p{
+        padding: 0px 20px 15px 25px;
+        width: 53vh;
+        font-size: 2.3vh;
     }
     .fotoThree img{
         position: absolute;
-        width: 70vw;
-        top: 245vw ;
-        left: 13.5vw;
+        width: 82vw;
+        top: 323vw;
+        left: 9vw;
     }
     .textThree{
         left: 0.1px;
-        top: 291vw;
-        width: 96.5vw;
-        height: 40vh;
+        top: 376vw;
+        width: 100%;
+        height: 38vh;
+        font-size: 2.3vh;
+    }
+    .textThree p{
+        padding: 0px 20px 0px 25px;
     }
     .fotoFour img{
         position: absolute;
-        top: 347vw;
-        width: 70vw;
-        left: 13.5vw;
+        top: 440vw;
+        width: 82vw;
+        left: 9vw;
     }
     .textFour{
         position: absolute;
         left: 0.1px;
-        top: 402vw;
-        width: 96.5vw;
+        top:504vw;
+        width: 100%;
         height: 40vh;
+    }
+    .textFour h5{
+        width: 47vh;
+    }
+    .textFour p{
+        font-size: 2.3vh;        
+        padding: 0px 20px 0px 25px;
     }
     .fotoFive img{
         position: absolute;
-        top: 458vw;
-        width: 70vw;
-        left: 13.5vw;
+        top: 571vw;
+        width: 82vw;
+        left: 9vw;
     }
     .textFive{
         position: absolute;
         left: 0.1px;
-        top: 500vw;
-        width: 96.5vw;
-        height: 45vh;
+        top: 620vw;
+        width: 100%;
+        height: 49vh;
+    }
+    .textFive p{
+        font-size: 2.3vh;        
+        padding: 0px 20px 0px 25px;
     }
     .fotoSix img{
         position: absolute;
-        top: 563vw;
-        width: 70vw;
-        left: 13.5vw;
+        top: 702vw;
+        width: 82vw;
+        left: 9vw;
     }
     .textSix{
         position: absolute;
         left: 0.1px;
-        top: 615vw;
-        width: 96.5vw;
-        height: 45vh;
+        top: 763vw;
+        width: 100%;
+        height: 40vh;
+    }
+    .textSix p{
+        font-size: 2.3vh;        
+        padding: 0px 20px 0px 25px;
     }
     .fotoSeven img{
         position: absolute;
-        top: 678vw;
-        width: 70vw;
-        left: 13.5vw;
+        top: 830vw;
+        width: 82vw;
+        left: 9vw;
     }
     .textSeven{
         position: absolute;
         left: 0.1px;
-        top: 727vw;
-        width: 96.5vw;
-        height: 45vh;
+        top:887vw;
+        width: 100%;
+        height: 34vh;
+    }
+    .textSeven p{
+        font-size: 2.3vh;        
+        padding: 0px 20px 0px 25px;
     }
     .fotoEight img{
         position:absolute;
-        top: 795vw;
-        width: 60vw;
-        left: 18vw;
+        top: 950vw;
+        width: 50vw;
+        left: 23vw;
     }
 }
