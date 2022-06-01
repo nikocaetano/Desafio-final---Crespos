@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;800&family=Playfair+Display:wght@900&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     max-width: 150vw;
     min-width: 320px;
 }
-header{
+
+header {
     display: flex;
     font-family: 'Montserrat', sans-serif;
     justify-content: space-around;
@@ -24,30 +27,37 @@ header{
     position: fixed;
     z-index: 1;
 }
-.logo img{
+
+.logo img {
     width: 7vw;
 }
-.menuHamburguer{
+
+.menuHamburguer {
     display: none;
 }
-header nav{
+
+header nav {
     align-items: center;
     width: 63%;
     padding: 0px 25px 0px 25px;
 }
-header ul{
+
+header ul {
     display: flex;
     justify-content: space-evenly;
 }
-header li{
+
+header li {
     list-style: none;
     display: flex;
 }
-header li:hover{
+
+header li:hover {
     font-weight: bold;
     cursor: pointer;
 }
-input{
+
+input {
     border-radius: 15px;
     height: 2vw;
     width: 12vw;
@@ -57,25 +67,30 @@ input{
     text-indent: 15%;
     font-size: 0.90vw;
 }
-header input::placeholder{
+
+header input::placeholder {
     color: #9767A9;
     background-image: url('./lupa.png');
     background-repeat: no-repeat;
     background-size: contain;
     opacity: 80%;
 }
-.socialNetworks{
+
+.socialNetworks {
     display: flex;
     justify-content: space-evenly;
     width: 12%;
 }
-main{
+
+main {
     margin: auto;
 }
-.socialNetworks img{
+
+.socialNetworks img {
     width: 2.30vw;
 }
-.firstSection{
+
+.firstSection {
     height: 62vh;
     background-image: url('./imagens desafio final/urn_aaid_sc_US_0e3d95bd-b65a-48ea-8d0c-a3ea5e85703d.png');
     background-size: cover;
@@ -85,7 +100,8 @@ main{
     align-items: center;
     position: relative;
 }
-.firstSection h1{    
+
+.firstSection h1 {
     font-family: 'Playfair Display', sans-serif;
     font-size: 7.5vh;
     width: 29vw;
@@ -95,32 +111,36 @@ main{
     line-height: 100%;
     top: 48%;
 }
-.firstSection h2{
+
+.firstSection h2 {
     display: flex;
     align-items: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 2.90vh;
     width: 25%;
-    height: 10%;  
+    height: 10%;
     position: absolute;
     right: 12vw;
     top: 55%;
 }
-.secondSection{
+
+.secondSection {
     background-color: #9767A9;
     height: 32vh;
     display: flex;
     color: white;
 }
-.secondSection h3{
+
+.secondSection h3 {
     font-family: 'Playfair Display';
     width: 57%;
     font-size: 43px;
     display: flex;
     padding: 15px 0px 0px 80px;
 }
-.paragraph{
+
+.paragraph {
     font-family: 'Montserrat', sans-serif;
     width: 39%;
     height: 100%;
@@ -131,7 +151,8 @@ main{
     align-items: center;
     flex-direction: column;
 }
-.thirdSection{
+
+.thirdSection {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -139,140 +160,273 @@ main{
     position: relative;
 }
 
-div{
+.thirdSection div {
     width: 30vw;
-    height: 25vw;
     display: flex;
     background-color: #9767A9;
     color: white;
     font-family: 'Montserrat';
     font-weight: 100;
-    font-size: 1.46vh;
+    font-size: 1.5vh;
     flex-direction: column;
-    padding: 18px 25px 18px 25px;
+    padding: 10px 25px 18px 25px;
 }
-div h5{
-    font-size: 3.19vh;
+
+.thirdSection div h5 {
+    font-size: 3vh;
     font-family: 'Playfair Display';
+    padding-bottom: 15px;
 }
-.fotoOne img{
+
+.fotoOne img {
     width: 42vw;
     position: relative;
-    right:  3vw;
+    right: 3vw;
     bottom: 4vw;
 }
-.textOne{
+
+.textOne {
     position: absolute;
     right: 56vw;
     top: 32vh;
 }
-.fotoTwo img{
+
+.fotoTwo img {
     width: 42vw;
     position: absolute;
     left: 50vw;
-    top:16vw;
+    top: 16vw;
 }
-.textTwo{
+
+.textTwo {
     position: absolute;
     left: 56vw;
     top: 41vw;
-    height: 21vw;
+    height: 23vw;
 }
-.fotoThree img{
+
+.fotoThree img {
     width: 42vw;
-    position:absolute;
+    position: absolute;
     top: 51vw;
-    right: 50vw;   
+    right: 50vw;
 }
-.textThree{
+
+.textThree {
     position: absolute;
     right: 56vw;
     top: 76vw;
     height: 18vw;
 }
-.fotoFour img{
+
+.fotoFour img {
     width: 42vw;
-    position:absolute;
+    position: absolute;
     top: 68.5vw;
     left: 50vw;
 }
-.textFour{
+
+.textFour {
     position: absolute;
     left: 56vw;
     top: 100vw;
-    height: 19vw;
+    height: 20vw;
 }
-.fotoFive img{
+
+.fotoFive img {
     width: 42vw;
-    position:absolute;
+    position: absolute;
     top: 103.5vw;
     right: 50vw;
 }
-.textFive{
+
+.textFive {
     position: absolute;
     right: 56vw;
     top: 128vw;
     height: 20vw;
 }
-.fotoSix img{
+
+.fotoSix img {
     width: 42vw;
-    position:absolute;
+    position: absolute;
     left: 50vw;
     top: 122vw;
 }
-.textSix{
+
+.textSix {
     position: absolute;
     left: 56vw;
     top: 152vw;
-    height: 18vw;
+    height: 19vw;
 }
-.fotoSeven img{
+
+.fotoSeven img {
     width: 42vw;
-    position:absolute;
+    position: absolute;
     right: 50vw;
     top: 157vw;
 }
-.textSeven{
+
+.textSeven {
     position: absolute;
     right: 56vw;
     top: 181.8vw;
     height: 15vw;
 }
-.fotoEight img{
+
+.fotoEight img {
     position: absolute;
     left: 55.5vw;
     top: 180vw;
     width: 30vw;
 }
 
-@media (max-width:500px){
-    header{
+.fourthSection {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 168vw;
+    padding: 0px 10px 0px 55px;
+   
+    height: 78vh;
+}
+.fourthSection img{
+}
+.negroCoroa img {
+    width: 20vw;
+    position: absolute;
+}
+
+.gloriaMaria img {
+    width: 20vw;
+    position: absolute;
+    top: 31vw;
+}
+
+.beyonce img {
+    width: 13vw;
+    position: absolute;
+    left: 25vw;
+}
+
+.michaelJordan img {
+    width: 13vw;
+    position: absolute;
+    left: 25vw;
+    top: 15.7vw;
+}
+
+.thaisAraujo img {
+    width: 13vw;
+    height: 12.1vw;
+    position: absolute;
+    left: 25vw;
+    top: 31vw;
+}
+
+.modeloCigarro img {
+    width: 13.2vw;
+    position: absolute;
+    left: 38.8vw;
+}
+
+.snoopyDog img {
+    width: 13.2vw;
+    position: absolute;
+    left: 38.8vw;
+    top: 31vw;
+}
+
+.cabeludo img {
+    width: 20.4vw;
+    position: absolute;
+    left: 53vw;
+}
+
+.sorrisoPenteado img {
+    width: 13vw;
+    position: absolute;
+    left: 74.3vw;
+}
+
+.barbudo img {
+    width: 13vw;
+    height: 30.1vw;
+    left: 74.3vw;
+    top: 13vw;
+    position: absolute;
+}
+
+footer {
+    background-color: #9767A9;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 324vw;
+    height: 5vw;
+    width: 100%;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+footer p{
+    display: flex;
+    align-items: center;
+    font-size: 0.9vw;
+    border:solid black;
+    width: 60vw;
+}
+footer section{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Montserrat', sans-serif;
+}
+footer nav{
+    display: flex;
+    flex-direction: row;
+    border: solid black;
+    width: 20vw;
+}
+footer ul{
+    list-style: none;
+}
+
+@media (max-width:600px) {
+    header {
         height: 8vw;
     }
-    .logo img{
+
+    .logo img {
         width: 12vw;
     }
-    .menuHamburguer{
+
+    .menuHamburguer {
         display: flex;
         position: absolute;
         height: 8vw;
         right: 90.5%;
     }
-    header nav{
+
+    header nav {
         display: none;
     }
-    input{
+
+    input {
         display: none;
     }
-    .socialNetworks{
+
+    .socialNetworks {
         display: none;
     }
-    .firstSection{
-        background-position: 31%;
+
+    .firstSection {
+        background-position: 35%;
         background-size: cover;
         background-attachment: scroll;
     }
-    .firstSection h1{
+
+    .firstSection h1 {
         position: absolute;
         top: 15%;
         right: 45%;
@@ -281,163 +435,205 @@ div h5{
         line-height: 60px;
         letter-spacing: 2px;
     }
-    .firstSection h2{
+
+    .firstSection h2 {
         position: absolute;
         top: 49%;
         right: 43%;
         width: 230px;
         font-size: 21px;
     }
-    .secondSection{
+
+    .secondSection {
         flex-direction: column;
         align-items: center;
-        height: 57vh;
+        height: 61vh;
     }
-    .secondSection h3{
-        width: 100%;
-        font-size: 3.5vh;
-        width: 52vh;
-        padding: 0px 0px 0px 17px;
+
+    .secondSection h3 {
+        width: 60vh;
+        font-size: 4vh;
+        padding: 0px 0px 0px 15px;
     }
-    .secondSection p{
-        font-size: 2.3vh;
+
+    .secondSection p {
+        font-size: 2.5vh;
         padding: 0px 0px 25px 0px;
-        width: 51vh;
+        width: 60vh;
     }
-    .thirdSection{
+
+    .thirdSection {
         position: relative;
     }
-    div h5{
-        font-size: 3vh;
-        width: 45vh;
-        padding: 0px 20px 5px 25px;
+
+    .thirdSection div {
+        width: 100%;
     }
-    .fotoOne img{
+
+    div h5 {
+        font-size: 4vh;
+        width: 45vh;
+        padding: 0px 20px 5px 30px;
+    }
+
+    .fotoOne img {
         position: absolute;
-        width:82vw;
+        width: 82vw;
         top: 3vw;
         right: 9vw;
     }
-    .textOne p{
-        padding: 0px 20px 15px 25px;
+
+    .textOne p {
+        padding: 0px 20px 15px 30px;
         width: 53vh;
+        font-size: 2.4vh;
     }
-    .textOne{
+
+    .textOne {
         position: absolute;
         left: 0.1px;
-        font-size: 2.3vh;
+        width: 100%;
+        height: 67vh;
+    }
+
+    .fotoTwo img {
+        position: absolute;
+        width: 82vw;
+        top: 135vw;
+        left: 9vw;
+    }
+
+    .textTwo {
+        position: absolute;
+        left: 0.1px;
+        top: 193vw;
         width: 100%;
         height: 65vh;
     }
-    .fotoTwo img{
-        position: absolute;
-        width:82vw;
-        top:158vw;
-        left: 9vw;
-    }
-    .textTwo{
-        position: absolute;
-        left: 0.1px;
-        top:216vw;
-        width: 100%;
-        height: 65vh;
-    }
-    .textTwo p{
-        padding: 0px 20px 15px 25px;
+
+    .textTwo p {
+        padding: 0px 20px 15px 30px;
         width: 53vh;
-        font-size: 2.3vh;
+        font-size: 2.4vh;
     }
-    .fotoThree img{
+
+    .fotoThree img {
         position: absolute;
         width: 82vw;
-        top: 323vw;
+        top: 283vw;
         left: 9vw;
     }
-    .textThree{
+
+    .textThree {
         left: 0.1px;
-        top: 376vw;
+        top: 336vw;
         width: 100%;
-        height: 38vh;
-        font-size: 2.3vh;
+        height: 36vh;
     }
-    .textThree p{
-        padding: 0px 20px 0px 25px;
+
+    .textThree p {
+        padding: 0px 20px 0px 30px;
+        font-size: 2.4vh;
     }
-    .fotoFour img{
+
+    .fotoFour img {
         position: absolute;
-        top: 440vw;
+        top: 388vw;
         width: 82vw;
         left: 9vw;
     }
-    .textFour{
+
+    .textFour {
         position: absolute;
         left: 0.1px;
-        top:504vw;
+        top: 451vw;
         width: 100%;
-        height: 40vh;
+        height: 35vh;
     }
-    .textFour h5{
+
+    .textFour h5 {
         width: 47vh;
     }
-    .textFour p{
-        font-size: 2.3vh;        
-        padding: 0px 20px 0px 25px;
+
+    .textFour p {
+        font-size: 2.4vh;
+        padding: 0px 20px 0px 30px;
     }
-    .fotoFive img{
+
+    .fotoFive img {
         position: absolute;
-        top: 571vw;
+        top: 501vw;
         width: 82vw;
         left: 9vw;
     }
-    .textFive{
+
+    .textFive {
         position: absolute;
         left: 0.1px;
-        top: 620vw;
+        top: 549vw;
         width: 100%;
-        height: 49vh;
+        height: 43vh;
     }
-    .textFive p{
-        font-size: 2.3vh;        
-        padding: 0px 20px 0px 25px;
+
+    .textFive p {
+        font-size: 2.4vh;
+        padding: 0px 20px 0px 30px;
     }
-    .fotoSix img{
+
+    .fotoSix img {
         position: absolute;
-        top: 702vw;
+        top: 610vw;
         width: 82vw;
         left: 9vw;
     }
-    .textSix{
+
+    .textSix {
         position: absolute;
         left: 0.1px;
-        top: 763vw;
+        top: 670vw;
         width: 100%;
         height: 40vh;
     }
-    .textSix p{
-        font-size: 2.3vh;        
-        padding: 0px 20px 0px 25px;
+
+    .textSix p {
+        font-size: 2.4vh;
+        padding: 0px 20px 0px 30px;
     }
-    .fotoSeven img{
+
+    .fotoSeven img {
         position: absolute;
-        top: 830vw;
+        top: 727vw;
         width: 82vw;
         left: 9vw;
     }
-    .textSeven{
+
+    .textSeven {
         position: absolute;
         left: 0.1px;
-        top:887vw;
+        top: 785vw;
         width: 100%;
         height: 34vh;
     }
-    .textSeven p{
-        font-size: 2.3vh;        
-        padding: 0px 20px 0px 25px;
+
+    .textSeven p {
+        font-size: 2.4vh;
+        padding: 0px 20px 0px 30px;
     }
-    .fotoEight img{
-        position:absolute;
-        top: 950vw;
+
+    .fotoEight img {
+        position: absolute;
+        top: 835vw;
         width: 50vw;
         left: 23vw;
+    }
+    .fourthSection{
+        position: relative;
+        top: 850vw;
+        padding: 0px;
+        height: 40vh;
+    }
+    footer{
+        position: relative;
+        top: 851vw;
     }
 }
