@@ -70,7 +70,7 @@ input {
 
 header input::placeholder {
     color: #9767A9;
-    background-image: url('./lupa.png');
+    background-image: url('./imagens desafio final/lupa.png');
     background-repeat: no-repeat;
     background-size: contain;
     opacity: 80%;
@@ -288,83 +288,83 @@ main {
     flex-wrap: wrap;
     position: relative;
     top: 168vw;
-    padding: 0px 10px 0px 55px;
-   
-    height: 78vh;
-}
-.fourthSection img{
+    padding: 0px 0px 0px 55px;
+    height: 75vh;
 }
 .negroCoroa img {
-    width: 20vw;
+    width: 20.5vw;
     position: absolute;
+    left: 6.61vw;
 }
 
 .gloriaMaria img {
-    width: 20vw;
+    width: 20.5vw;
     position: absolute;
-    top: 31vw;
+    top: 31.5vw;
+    left: 6.61vw;
 }
 
 .beyonce img {
-    width: 13vw;
+    width: 13.5vw;
     position: absolute;
-    left: 25vw;
+    left: 27.8vw;
 }
 
 .michaelJordan img {
-    width: 13vw;
+    width: 13.5vw;
+    height: 13;
     position: absolute;
-    left: 25vw;
-    top: 15.7vw;
+    left: 27.8vw;
+    top: 16.1vw;
 }
 
 .thaisAraujo img {
-    width: 13vw;
-    height: 12.1vw;
+    width: 13.5vw;
     position: absolute;
-    left: 25vw;
-    top: 31vw;
+    height: 12.41vw;
+    left: 27.8vw;
+    top: 31.4vw;
 }
 
 .modeloCigarro img {
-    width: 13.2vw;
+    width: 13.6vw;
+    height: 30.7vw;
     position: absolute;
-    left: 38.8vw;
+    left: 42.1vw;
 }
-
 .snoopyDog img {
-    width: 13.2vw;
+    width: 13.6vw;
     position: absolute;
-    left: 38.8vw;
-    top: 31vw;
+    left: 42.1vw;
+    top: 31.4vw;
 }
 
 .cabeludo img {
-    width: 20.4vw;
+    width: 20.5vw;
     position: absolute;
-    left: 53vw;
+    left: 56.5vw;
 }
 
 .sorrisoPenteado img {
-    width: 13vw;
+    width: 14vw;
     position: absolute;
-    left: 74.3vw;
+    left: 77.8vw;
 }
 
 .barbudo img {
-    width: 13vw;
-    height: 30.1vw;
-    left: 74.3vw;
-    top: 13vw;
+    width: 14vw;
+    height: 30.2vw;
+    left: 77.8vw;
+    top: 13.6vw;
     position: absolute;
 }
 
-footer {
+footer{
     background-color: #9767A9;
     display: flex;
     justify-content: space-around;
-    position: absolute;
-    top: 324vw;
+    position: relative;
+    top: 163vw;
     height: 5vw;
     width: 100%;
     color: white;
@@ -374,24 +374,50 @@ footer p{
     display: flex;
     align-items: center;
     font-size: 0.9vw;
-    border:solid black;
     width: 60vw;
 }
 footer section{
     display: flex;
     justify-content: space-around;
     font-family: 'Montserrat', sans-serif;
+    align-items: center;
 }
-footer nav{
+button{
+    height: 5vw;
+    width: 7.8vw;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #9767A9;
+    border: none;
+    color: white;
     display: flex;
-    flex-direction: row;
-    border: solid black;
-    width: 20vw;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 3vh;
 }
-footer ul{
-    list-style: none;
+.previousPage{
+    background-image: url('./imagens desafio final/seta\ esquerda.png');
+    background-repeat: no-repeat;
+    background-size: 3vh;
+    background-position: 8%;
+}
+.backTop{
+    background-image: url('./imagens desafio final/seta\ para\ cima.png');
+    background-repeat: no-repeat;
+    background-size: 3vh;
+    background-position: 8%;
+}
+.nextPage{
+    background-image: url('./imagens desafio final/seta\ direita.png');
+    background-repeat: no-repeat;
+    background-size: 3vh;
+    background-position: 8%;
 }
 
+button:hover{
+    background-color: white;
+    opacity: 0.5;
+    
+}
 @media (max-width:600px) {
     header {
         height: 8vw;
@@ -429,7 +455,7 @@ footer ul{
     .firstSection h1 {
         position: absolute;
         top: 15%;
-        right: 45%;
+        right: 50%;
         font-size: 8vh;
         width: 230px;
         line-height: 60px;
@@ -439,7 +465,7 @@ footer ul{
     .firstSection h2 {
         position: absolute;
         top: 49%;
-        right: 43%;
+        right: 49%;
         width: 230px;
         font-size: 21px;
     }
@@ -630,10 +656,77 @@ footer ul{
         position: relative;
         top: 850vw;
         padding: 0px;
-        height: 40vh;
+        height: 100vw;
     }
     footer{
         position: relative;
-        top: 851vw;
+        top: 854vw;
     }
+    .fourthSection{
+        position: relative;
+        height: 180vw;
+    }
+    .negroCoroa img{
+        position: absolute;
+        width: 41vw;
+    }
+    .beyonce img{
+        position: absolute;
+        width: 20vw;
+        left: 71.9vw;
+    }
+    .michaelJordan img{
+        position: absolute;
+        width: 20.8vw;
+        height: 23vw;
+        left: 49.4vw;
+        top: 0vw;
+    }
+    .gloriaMaria img{
+        position: absolute;
+        top: 64vw;
+        width: 85.2vw;
+    }
+    .thaisAraujo img{
+        position: absolute;
+        left: 49.4vw;
+        top: 25vw;
+        width: 42.5vw;
+        height: 36.5vw;
+    }
+    .cabeludo img{
+        position: absolute;
+        width: 19vw;
+        height: 41vw;
+        top: 117.5vw;
+        left: 6.71vw;
+    }
+    .snoopyDog img{
+        position: absolute;
+        top:161.7vw;
+        left: 28vw;
+        z-index: 2;
+        width: 19vw;
+    }
+    .modeloCigarro img{
+        position: absolute;
+        width: 42.5vw;
+        height: 61.5vw;
+        top: 117.5vw;
+        left: 49.3vw;
+    }
+    .sorrisoPenteado img{
+        position: absolute;
+        top: 161.5vw;
+        left: 6.71vw;
+        width: 19vw;
+    }
+    .barbudo img{
+        position: absolute;
+        top: 117.5vw;
+        left:28vw;
+        width: 19vw ;
+        height: 41vw;
+    }
+    
 }
