@@ -420,6 +420,15 @@ button:hover{
     background-color: white;
     opacity: 0.5;    
 }
+.anterior{
+    display: none;
+}
+.topo{
+    display: none;
+}
+.proxima{
+    display: none;
+}
 @media (max-width:600px) {
     header {
         height: 8vw;
