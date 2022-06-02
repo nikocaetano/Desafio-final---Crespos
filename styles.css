@@ -376,6 +376,9 @@ footer p{
     font-size: 0.9vw;
     width: 60vw;
 }
+.copyright{
+    display: none;
+}
 footer section{
     display: flex;
     justify-content: space-around;
@@ -415,8 +418,7 @@ button{
 
 button:hover{
     background-color: white;
-    opacity: 0.5;
-    
+    opacity: 0.5;    
 }
 @media (max-width:600px) {
     header {
@@ -728,5 +730,65 @@ button:hover{
         width: 19vw ;
         height: 41vw;
     }
-    
+    footer{
+        position: relative;
+        background-color: white;
+        color: black;
+        height: 30vw;
+    }
+    .copyright{
+        display: flex;
+        position: absolute;
+        font-size: 3vw;
+        font-weight: 600;
+        top: 15vw;
+        right: 34vw;
+    }
+    .footerParagraph{
+        font-size: 2.3vw;
+        width: 90vw;
+        padding: 0px 0px 20px 20px;
+        top: 17vw;
+        display: flex;
+        align-items: flex-end;
+    }
+    .previousPage{
+        display: none;
+    }
+    .backTop{
+        display: none;
+    }
+    .nextPage{
+        display: none;
+    }
+    button{
+        border-radius: 100%;
+        width: 5vw;
+        height: 5vw;
+    }
+    .anterior{        
+        position: absolute;
+        bottom: 20vw;
+        right: 20vw;
+        background-image: url('./imagens desafio final/seta\ esquerda\ mobile.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .topo{
+        position: absolute;
+        bottom: 20vw;
+        right: 14vw;
+        background-image: url('./imagens desafio final/seta\ para\ cima\ mobile.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .proxima{
+        position: absolute;
+        bottom: 20vw;
+        right: 8vw;
+        background-image: url('./imagens desafio final/seta\ direita\ mobile.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
 }
