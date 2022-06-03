@@ -56,7 +56,20 @@ header li:hover {
     font-weight: bold;
     cursor: pointer;
 }
-
+.menuRes{
+    position: absolute;
+    height: 5vw;
+    width: 5vw;
+    align-items: center;
+    justify-content: center;
+    right: 90.5%;
+    background-color: #9767A9;
+    border: none;
+    color: white;
+    font-size: 36px;
+    cursor: pointer;
+    display: none;
+}
 input {
     border-radius: 15px;
     height: 2vw;
@@ -374,7 +387,8 @@ footer p{
     display: flex;
     align-items: center;
     font-size: 0.9vw;
-    width: 60vw;
+    width: 60vw; 
+    padding-left: 50px;
 }
 .copyright{
     display: none;
@@ -385,7 +399,10 @@ footer section{
     font-family: 'Montserrat', sans-serif;
     align-items: center;
 }
-button{
+.buttonDesktop{
+    padding-left: 35px;
+}
+.buttonDesktop button{
     height: 5vw;
     width: 7.8vw;
     font-family: 'Montserrat', sans-serif;
@@ -403,11 +420,16 @@ button{
     background-size: 3vh;
     background-position: 8%;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
 .backTop{
     background-image: url('./imagens desafio final/seta\ para\ cima.png');
     background-repeat: no-repeat;
     background-size: 3vh;
     background-position: 8%;
+    z-index: 1;
 }
 .nextPage{
     background-image: url('./imagens desafio final/seta\ direita.png');
@@ -417,8 +439,8 @@ button{
 }
 
 button:hover{
-    background-color: white;
-    opacity: 0.5;    
+    background-color: #be95c4;
+    opacity: 1;
 }
 .anterior{
     display: none;
@@ -444,7 +466,7 @@ button:hover{
         height: 8vw;
         right: 90.5%;
     }
-
+    
     header nav {
         display: none;
     }
@@ -516,7 +538,7 @@ button:hover{
     .fotoOne img {
         position: absolute;
         width: 82vw;
-        top: 3vw;
+        top: 4vw;
         right: 9vw;
     }
 
@@ -531,19 +553,20 @@ button:hover{
         left: 0.1px;
         width: 100%;
         height: 67vh;
+        top: 41vw;
     }
 
     .fotoTwo img {
         position: absolute;
         width: 82vw;
-        top: 135vw;
+        top: 126vw;
         left: 9vw;
     }
 
     .textTwo {
         position: absolute;
         left: 0.1px;
-        top: 193vw;
+        top: 184vw;
         width: 100%;
         height: 65vh;
     }
@@ -557,13 +580,13 @@ button:hover{
     .fotoThree img {
         position: absolute;
         width: 82vw;
-        top: 283vw;
+        top: 266vw;
         left: 9vw;
     }
 
     .textThree {
         left: 0.1px;
-        top: 336vw;
+        top: 319vw;
         width: 100%;
         height: 36vh;
     }
@@ -575,7 +598,7 @@ button:hover{
 
     .fotoFour img {
         position: absolute;
-        top: 388vw;
+        top: 366vw;
         width: 82vw;
         left: 9vw;
     }
@@ -583,9 +606,9 @@ button:hover{
     .textFour {
         position: absolute;
         left: 0.1px;
-        top: 451vw;
+        top: 430vw;
         width: 100%;
-        height: 35vh;
+        height: 38vh;
     }
 
     .textFour h5 {
@@ -599,7 +622,7 @@ button:hover{
 
     .fotoFive img {
         position: absolute;
-        top: 501vw;
+        top: 480vw;
         width: 82vw;
         left: 9vw;
     }
@@ -607,7 +630,7 @@ button:hover{
     .textFive {
         position: absolute;
         left: 0.1px;
-        top: 549vw;
+        top: 529vw;
         width: 100%;
         height: 43vh;
     }
@@ -619,7 +642,7 @@ button:hover{
 
     .fotoSix img {
         position: absolute;
-        top: 610vw;
+        top: 584vw;
         width: 82vw;
         left: 9vw;
     }
@@ -627,9 +650,9 @@ button:hover{
     .textSix {
         position: absolute;
         left: 0.1px;
-        top: 670vw;
+        top: 645vw;
         width: 100%;
-        height: 40vh;
+        height: 35vh;
     }
 
     .textSix p {
@@ -639,7 +662,7 @@ button:hover{
 
     .fotoSeven img {
         position: absolute;
-        top: 727vw;
+        top: 690vw;
         width: 82vw;
         left: 9vw;
     }
@@ -647,9 +670,9 @@ button:hover{
     .textSeven {
         position: absolute;
         left: 0.1px;
-        top: 785vw;
+        top: 747vw;
         width: 100%;
-        height: 34vh;
+        height: 31vh;
     }
 
     .textSeven p {
@@ -659,19 +682,19 @@ button:hover{
 
     .fotoEight img {
         position: absolute;
-        top: 835vw;
+        top: 795vw;
         width: 50vw;
         left: 23vw;
     }
     .fourthSection{
         position: relative;
-        top: 850vw;
+        top: 815vw;
         padding: 0px;
         height: 100vw;
     }
     footer{
         position: relative;
-        top: 854vw;
+        top: 815vw;
     }
     .fourthSection{
         position: relative;
@@ -750,27 +773,21 @@ button:hover{
         position: absolute;
         font-size: 3vw;
         font-weight: 600;
-        top: 15vw;
-        right: 34vw;
+        top: 14vw;
+        right: 40.8vw;
     }
     .footerParagraph{
         font-size: 2.3vw;
         width: 90vw;
-        padding: 0px 0px 20px 20px;
+        padding: 0px 0px 20px 37px;
         top: 17vw;
         display: flex;
         align-items: flex-end;
     }
-    .previousPage{
+    .buttonDesktop{
         display: none;
     }
-    .backTop{
-        display: none;
-    }
-    .nextPage{
-        display: none;
-    }
-    button{
+    .buttonMobile{
         border-radius: 100%;
         width: 5vw;
         height: 5vw;
